@@ -1,9 +1,9 @@
 {
+  "homepage": "https://JeetNathwani26.github.io/chaintech",
   "name": "chaintech",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://JeetNathwani26.github.io/chaintech",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
