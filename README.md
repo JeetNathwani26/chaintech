@@ -1,16 +1,55 @@
-# React + Vite
+# Chaintech Network Frontend Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based project built as part of the Chaintech Network selection process.  
+This application allows users to **register, login, and manage data** without any backend — using `localStorage` and React Context API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🧍 User Registration & Login
+- 💾 Data stored in LocalStorage
+- 🔐 React Context API for authentication
+- 🧭 Routing using React Router
+- 🎨 Styled with Bootstrap
+- ⚙️ Fully functional frontend without a backend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React (Vite)**
+- **React Router DOM**
+- **Bootstrap 5**
+- **Context API**
+- **LocalStorage**
+
+---
+
+
+---
+
+## How to Run Locally
+
+## bash
+# 1. Clone the repository
+git clone https://github.com/<your-username>/chaintech-challenge.git
+
+# 2. Navigate into project directory
+cd chaintech-challenge
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the app
+npm run dev
+Usage
+
+Register a new user.
+
+Login with your credentials.
+
+View your details on the Dashboard.
+
+Logout using the button on the dashboard.
+
