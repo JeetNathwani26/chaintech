@@ -9,12 +9,12 @@ import Update from '../component/update'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/chaintech">
         <Routes>
-          <Route path='chaintech/' element={<Login />} />
-          <Route path='chaintech/register' element={<Register />} />
-          <Route path='chaintech/dashboard' element={<Dashboard/>} />
-          <Route path='chaintech/update/:id' element={<Update/>}/>
+          <Route path='/' element={<Login />} />
+          <Route path='/register' element={<Register />} />
+          <Route path='/dashboard' element={<Dashboard/>} />
+          <Route path='/update/:id' element={<Update/>}/>
         </Routes>
       </BrowserRouter>
     </>
