@@ -23,7 +23,7 @@ function Dashboard() {
         Logout
       </button>
       <button className="btn btn-primary mt-3 ms-3"  onClick={handleClick} >
-        Edite
+        Edit
       </button>
     </div>
 
