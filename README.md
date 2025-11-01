@@ -53,3 +53,8 @@ View your details on the Dashboard.
 
 Logout using the button on the dashboard.
 
+
+#5.Deploy link
+
+deploy link:-https://jeetnathwani26.github.io/chaintech/
+
